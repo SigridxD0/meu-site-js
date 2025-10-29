@@ -1,3 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 1px;
+}
+button:hover{
+    background-color: #0056b3;
+}
+form{
+    display: grid;
+    place-items: center;
+    width: 80%; /* Ocupar 80% da largura central */
+    margin-top: 20px; /* Um espaço acima do formulário */
+    padding: 15px;
+    border: 1px solid #ccc; /* Uma borda sutil */
+    border-radius: 5px;
+}
+label{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#boas-vindas{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 .escondido{
     display: none;
 }
