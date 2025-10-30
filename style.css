@@ -46,3 +46,7 @@ label{
 .escondido{
     display: none;
 }
+.input-erro{
+    border: 2px solid rgba(253, 38, 38, 0.375);
+    background-color: #ffe8e8;
+}
